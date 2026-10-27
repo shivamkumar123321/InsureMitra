@@ -1,0 +1,14 @@
+{
+  "name": "health-insurance-guide-backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "start": "node dist/backend/src/server.js"
+  },
+  "dependencies": {
+    "express": "5.3.0"
+  }
+}

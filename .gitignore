@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+.neon
+node_modules/
+dist/
+build/
+frontend/dist/
+backend/dist/
+coverage/
+playwright-report/
+test-results/
+*.wav
+*.webm
+*.mp3
+*.ogg
